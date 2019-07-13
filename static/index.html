@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>HCI Project Portfolio</title>
+	<title>My Personal Webpage</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
@@ -13,12 +13,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-
-<style>
-	body {
-		background-color: #1E90FF;
-	}
-</style>	
+	
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
@@ -26,23 +21,20 @@
 		<header>
 			<nav>
 			     <ul>
-				 <li><a href="project.html">About</a></li>
-				 <li><a href="">My Interests</a></li>
-				 <li><a href="">Contact</a></li>
+				 <li><a href="home.html">Home</a></li>
+				 <li><a href="about.html">About</a></li>
+				 <li><a href="myinterest.html">My Interests</a></li>
+				 <li><a href="contact.html">Contact</a></li>
 			     </ul>
-			</nav>
+			 </nav>
+			 <h1>Ranz Ryan S. Martinez</font></h1>
 		</header>
-		<div>
-			<center><h1>Ranz Ryan S. Martinez</font></h1></center>
-			<center><img src="images\66086956_467968597366668_7699397531473543168_n.jpg" alt="My profile photo"></center>
-		</div>
 		
 		<h2>About</h2>
-		<div id="project1">
-			<a href="project.html">
-				<h4>Hi! I am Ranz Martinez. They usually call me Ranz, but you can call me anytime hihi.
-				This is my personal website, welcome!</h4>
-			</a>
+		<div>
+			
+				<h3>Hi! My name is Ranz Ryan Martinez. They usually call me Ranz, but you can call me anytime hihi.
+				This is my personal website, welcome!</h3>
 		</div>
 
 
@@ -51,26 +43,37 @@
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		
-		<div id="project2">
-			<a href="project.html">
-				<h4 style="text-align:center;">planting trees</h4>
-				<center><img src="images\66111808_496453367789496_7156870091710136320_n.jpg" alt="planting trees"></center>
-			</a>
+		
+		<section class="features">
+		  <figure>
+		      <img src="images\life.jpg" alt="preserve life">
+		      <figcaptiion>preserve life</figcaption>
+		    </figure>
 			
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<h4 style="text-align:center;">watching sunset</h4>
-				<center><img src="images\65678276_1161052020732252_7233293429810135040_n.jpg" alt="Sunset"></center>
-			</a>
+		  <figure>
+		      <img src="images\66111808_496453367789496_7156870091710136320_n.jpg" alt="tall trees">
+		      <figcaption>planting trees</figcaption>
+		    </figure>
+		
+		  <figure>	
+			<img src="images\65678276_1161052020732252_7233293429810135040_n.jpg" alt="Sunset">
+			<figcaption>watching sunset</figcaption>
+		    </figure>
 			
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<h4 style="text-align:center;">playing basketball</h4>
-				<center><img src="images\65924823_759935487758320_4270408952174346240_n.jpg" alt="Playing Basketball"></center
-			</a>
-		</div>
+		  <figure>
+			<img src="images\65924823_759935487758320_4270408952174346240_n.jpg" alt="Playing Basketball">
+			<figcaption>playing basketball</figcaption>
+		    </figure>
+			
+		  <figure>
+			<img src="images\taho.jpg" alt="Tofu in glass">
+			<figcaption>Hot Tofu with Sago Pearls</figcaption>
+		    </figure>
+			
+		  <figure>
+			<img src="images\her.jpg" alt="photo">
+			<figcaption>travel</figcaption>
+		    </figure>
 		
 		<h2>Contact</h2>
 		<div id="project1">
@@ -84,3 +87,55 @@
 	</div>
 </body>
 </html>
+
+body {
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+)
+
+header {
+  background-color: black;
+  background image: url("images\66086956_467968597366668_7699397531473543168_n.jpg");
+  background-position: left;
+  padding: 20px;
+  height: 100px;
+)
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.features {
+  background: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  felx-direction: row;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;navnav
+  text-transform: lowercase;
+  width: 200px;
+{
+
+.features img {
+  border-radius: 50%;
+  width: 200px;
