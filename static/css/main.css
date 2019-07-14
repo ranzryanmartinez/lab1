@@ -1,13 +1,13 @@
 body {
   background: rgb(58, 58, 58);
-  color: white;
+  color: #fff;
   font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 )
 
 header {
-  background-color: black;
+  background-color: #999;
   background image: url("images\66086956_467968597366668_7699397531473543168_n.jpg");
   background-position: left;
   padding: 20px;
@@ -15,7 +15,7 @@ header {
 )
 
 header a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 40px;
