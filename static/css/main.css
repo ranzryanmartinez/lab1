@@ -36,17 +36,17 @@ nav li {
   color: black;
   padding: 20px;
   display: flex;
-  felx-direction: row;
+  flex-direction: row;
 }
 
 .features figure {
   margin: auto;
-  text-align: center;navnav
+  text-align: center;
   text-transform: lowercase;
   width: 200px;
 {
 
 .features img {
   border-radius: 50%;
-  width: 200px
+  width: 200px;
  }
