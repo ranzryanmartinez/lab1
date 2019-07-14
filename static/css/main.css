@@ -7,7 +7,7 @@ body {
 )
 
 header {
-  background-color: #999;
+  background-color: #black;
   background image: url("images\66086956_467968597366668_7699397531473543168_n.jpg");
   background-position: left;
   padding: 20px;
@@ -15,7 +15,7 @@ header {
 )
 
 header a {
-  color: #fff;
+  color: #white;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 40px;
@@ -31,6 +31,14 @@ nav li {
   display: inline-block;
   margin-right: 20px;
 }
+
+h1, h2 {
+  color: #white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+  
 .features {
   background: white;
   color: black;
