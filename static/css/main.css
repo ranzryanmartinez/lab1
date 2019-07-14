@@ -4,7 +4,7 @@ body {
   font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-)
+}
 
 header {
   background-color: #black;
@@ -12,7 +12,7 @@ header {
   background-position: left;
   padding: 20px;
   height: 100px;
-)
+}
 
 header a {
   color: #white;
@@ -52,7 +52,7 @@ h1, h2 {
   text-align: center;
   text-transform: lowercase;
   width: 200px;
-{
+}
 
 .features img {
   border-radius: 50%;
