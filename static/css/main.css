@@ -9,16 +9,11 @@ body {
 header {
   background-color: #black;
   background image: url("images\66086956_467968597366668_7699397531473543168_n.jpg");
-  background-position: left;
+  background-size: 100%;
+  background-position: center;
   padding: 20px;
   height: 100px;
-}
-
-header a {
-  color: #white;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-top: 40px;
+  text-align: center;
 }
 
 nav ul {
@@ -32,14 +27,15 @@ nav li {
   margin-right: 20px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #white;
   text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
   margin-top: 40px;
 }
   
-.features {
+.featuresone {
   background: white;
   color: black;
   padding: 20px;
@@ -47,14 +43,34 @@ h1, h2 {
   flex-direction: row;
 }
 
-.features figure {
+.featuresone figure {
   margin: auto;
   text-align: center;
   text-transform: lowercase;
   width: 200px;
 }
 
-.features img {
+.featuresone img {
+  border-radius: 50%;
+  width: 200px;
+ }
+
+.featurestwo {
+  background: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.featurestwo figure {
+  margin: auto;
+  text-align: center;
+  text-transform: lowercase;
+  width: 200px;
+}
+
+.featurestwo img {
   border-radius: 50%;
   width: 200px;
  }
