@@ -51,7 +51,9 @@ h1, h2, h3 {
 }
 
 .featuresone img {
+  border: 1px solid white; 
   border-radius: 50%;
+  box-shadow: gray 0 0 10px;
   width: 200px;
  }
 
@@ -71,6 +73,8 @@ h1, h2, h3 {
 }
 
 .featurestwo img {
+  border: 1px solid white;
   border-radius: 50%;
+  box-shadow: gray 0 0 10px;
   width: 200px;
  }
