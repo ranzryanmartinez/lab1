@@ -263,7 +263,8 @@ p, span, a{
 }
 
 #portfolio img{
-	max-width: 100%;
+	width: calc(100% - 30px);
+	height: 100%;
 }
 
 #portfolio .row > div{
