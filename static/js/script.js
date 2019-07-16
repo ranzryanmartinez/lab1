@@ -1,3 +1,5 @@
+/* j a v a s c r i p t */
+
 $('#navigation a').on('click', function(e) {
   e.preventDefault();
   var hash = this.hash;
