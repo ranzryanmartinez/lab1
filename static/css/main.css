@@ -70,8 +70,8 @@ p, span, a{
 
 
 #header{
-	min-height: 100vh;
-	background-image: url("65678276_1161052020732252_7233293429810135040_n.png");
+    min-height: 100vh;
+    background-color: black;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
